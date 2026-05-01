@@ -1,0 +1,120 @@
+Sno,Test Case ID,Module,Flow,Test Cases,Execution Status - Android,Test Results,Execution Status- iOS [Apr 24 ],Test Results,QA Comments
+Scenario 1 - Verify the Customer Approval Page Functionality works properly,,,,,,,,,
+1,TC001,Customer Approval,Navigation,Verify Customer Approvals tab opens correctly,Executed,Pass,Executed,Pass,Present
+2,TC002,Customer Approval,Valdidation,Verify only authorized roles(RFTS) can access Customer approval module,Executed,Pass,Executed,Pass,Present
+3,TC003,Customer Approval,View,Verify that the RFTS user can able to view the data in the Customer approval page,Executed,Pass,Executed,Pass,Present
+4,TC004,Customer Approval,Filter,Verify that the Date filter works properly,Executed,Fail,Executed,Fail,Present
+5,TC005,Customer Approval,Filter,Verify that the Date filter appears on the customer approval screen,Executed,Fail,Executed,Fail,Added
+6,TC006,Customer Approval,Filter,Verify that the Date filter works properly by selecting valid range,Executed,Fail,Executed,Fail,Present
+7,TC007,Customer Approval,Filter,Verify that the search filter works properly for the valid input,Executed,Pass,Executed,Fail,Present
+8,TC008,Customer Approval,Filter,Verify that the search filter works properly for the Invalid input,Executed,Pass,Executed,Fail,Present
+9,TC009,Customer Approval,View,Verify that the FTS users can be displayed in the dropdown,Executed,Pass,Executed,Pass,Present
+10,TC010,,,Verify that FTS can be searched in the FTS dropdown ,Executed,Fail,Executed,Pass,Added
+11,TC011,Customer Approval,View,Verify that the selected  FTS users list for the approval is listed in the page,Executed,Pass,Executed,Pass,Present
+12,TC012,Customer Approval,View,Verify pending and approved tabs are present.,Executed,Pass,Executed,Pass,Present
+13,TC013,Customer Approval,View,Verify that the number of pending approval for the FTS user is calculated and listed correctly,Executed,Fail,Executed,Pass,Present
+14,TC014,Customer Approval,View,Click on Pending tab and verify that only pending approval are in the list,Executed,Pass,Executed,Pass,Present
+15,TC015,,,Verify that the number of approved status for the FTS is calculated and listed properly,Executed,Fail,Executed,Fail,Present
+16,TC016,Customer Approval,View,Click on Approved  tab and verify that only Approved Customer  are in the list,Executed,Pass,Executed,Pass,Present
+17,TC017,Customer Approval,View,Verify all the details are correctly appearing on the approval scrren,Executed,Pass,Executed,Pass,Added
+18,TC018,Customer Approval,View,Verify the copy button for email and contact number field,Executed,Pass,Executed,Pass,Added
+19,TC019,Customer Approval,View,Verify clicking on copy button and field should get copied.,Executed,Pass,Executed,Pass,Added
+20,TC020,Customer Approval,View,Verify that requested on date is visible on the approval page,Executed,Pass,Executed,Pass,Present
+21,TC021,Customer Approval,View,Verify that requested by  is visible on the approval page,Executed,Pass,Executed,Pass,Added
+22,TC022,Customer Approval,View,Verify that RFTS can view all the details by clicking on see more details on pending for approval page,Executed,Pass,Executed,Pass,Added
+23,TC023,,,Verify clciking on fleet location and user should naviagtes to maps,Executed,Pass,Executed,Pass,Added
+24,TC024,,,Verify clciking on info button and all the details should expand  in vehicle and workshop field,Executed,Pass,Executed,Pass,Added
+25,TC025,Customer Approval,View,"Verify that the Customer details,  vehicle details and workshop details  are displayed propery on clicking tap to see more details on aprroved page",Executed,Pass,Executed,Pass,Present
+26,TC026,Customer Approval,View,Veirfy the info alert button at the top right corner of the Screen,Executed,Fail,Executed,Fail,Added
+27,TC027,Customer Approval,View,Verify the rejction history is visible by click on the info alert button,Executed,Fail,Executed,Fail,Added
+28,TC028,Customer Approval,View,"Verify that the correct reason for rejection, Rejected by and rejected date is viisble on the screen.",Executed,Fail,Executed,Fail,Added
+29,TC029,Customer Approval,Approve/Reject,Verify that the RFTE user can able to reject the customer,Executed,Pass,Executed,Pass,Present
+30,TC030,Customer Approval,Approve/Reject,Verify rejection confirmation triggered when rejecting  the customer,Executed,Pass,Executed,Pass,Added
+31,TC031,Customer Approval,Approve/Reject,Verify that the RFTE user can able to submit the remarks for the customer rejection.,Executed,Pass,Executed,Pass,Present
+32,TC032,Customer Approval,View,Verify pending and approved tabs are present.,Executed,Pass,Executed,Pass,Present
+Scenario 2 - Verify the Customer Approval/ Rejection works properly,,,,,,,,,
+33,TC033,Customer Approval,Approve/Reject,Verify that the RFTS user can able to reject the customer,Executed,Pass,Executed,Pass,Present
+34,TC034,Customer Approval,Approve/Reject,Verify that the RFTS user can able to submit the remarks for the customer rejection.,Executed,Pass,Executed,Pass,Present
+35,TC035,Customer Approval,Approve/Reject,Verify that the rejected customer is not displayed in the Approved/Pending status,Executed,Pass,Executed,Pass,Present
+36,TC036,Customer Approval,Approve/Reject,Verify that the RFTS can able to Approve the customer,Executed,Pass,Executed,Pass,Present
+37,TC037,Customer Approval,Approve/Reject,Verify that the approved customer is listed in the Approved list,Executed,Pass,Executed,Pass,Present
+38,TC038,Customer Approval,Approve/Reject,Verify approval confirmation triggered when approving the customer,Executed,Pass,Executed,Pass,Present
+39,TC039,Customer Approval,View,Verify that the Customer and vehicle details are displayed propery on clicking tap to see more details,Executed,Pass,Executed,Pass,Present
+40,TC040,Customer Approval,View,Verify that the on-screen keypad is automatically dismissed when the user taps outside the input field on a mobile screen.,Executed,Fail,Not Executed,,Present
+41,TC041,Customer Approval,Valdidation,Verify that inline validation messages are displayed for mandatory fields when left empty.,Executed,Fail,Executed,Pass,Present
+42,TC042,Customer Approval,View,Verify that validation messages are displayed for incorrect or invalid input values in the fields.,,,,,Removed
+43,TC043,Customer Approval,View,"Verify that in the Approved List, when the user taps on ""See More"", the Approve and Reject buttons are not displayed.",Executed,Pass,Executed,Pass,Present
+44,TC044,Customer Approval,View,Verify that RFTS can view all the details by clicking on see more details,Executed,Pass,Executed,Pass,Present
+45,TC045,Customer Approval,View,Veirfy the info alert button at the top right corner of the screen,Executed,Fail,Executed,Fail,Present
+46,TC046,Customer Approval,View,Verify the rejction history is visible by click on the info alert button,Executed,Fail,Executed,Fail,Present
+47,TC047,Customer Approval,View,"Verify that the correct reason for rejection, Rejected by and rejected date is viisble on the screen.",Not Executed,Pass,Not Executed,Pass,Present
+48,TC048,Customer Approval,View,Verify rejection confirmation triggered when rejecting the customer,Executed,Pass,Executed,Pass,Present
+49,TC049,Customer Approval,View,Click on Pending tab and verify that only pending approval are in the list,,,,,Removed - Duplicated
+50,TC050,Customer Approval,View,Verify that requested by is visible and Displayed correctly on the approval page,Executed,Fail,Executed,Pass,Present
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
