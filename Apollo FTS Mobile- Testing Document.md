@@ -4,6 +4,10 @@
 
 ***Test Scenario 1 \- Verify the Landing Page Functionality***
 
+
+https://github.com/user-attachments/assets/2db6c45a-4f6f-4def-8a06-4e9bb95c7e44
+
+
 ***Test Scenario 2 – Verify Customer Page Functionality***
 
 ***Test Scenario 3 – Verify New Customer Onboarding Functionality***
